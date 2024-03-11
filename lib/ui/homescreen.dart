@@ -230,7 +230,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                         )
                                                       ] // Make rounded corner of border
                                                       ),
-                                                  width: 150,
+                                                  width: 100,
                                                   // color: Colors.grey,
                                                   child: Padding(
                                                     padding:

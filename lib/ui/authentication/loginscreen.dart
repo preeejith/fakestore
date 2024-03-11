@@ -47,10 +47,11 @@ class _LoginScreenState extends State<LoginScreen> {
       children: [
         Center(
           child: Padding(
-            padding: const EdgeInsets.all(55.0),
+            padding: const EdgeInsets.all(30.0),
             child: ClipRRect(
               borderRadius: BorderRadius.circular(24),
               child: Container(
+                width: Helper.width(context),
                 color: Colors.white,
                 child: Form(
                   key: formKey,
